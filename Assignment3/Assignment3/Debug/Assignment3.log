@@ -1,0 +1,38 @@
+﻿Build started 6/17/2015 3:35:12 PM.
+     1>Project "C:\Users\Aaron\Desktop\The Den\School\CS 2420\Assignment3\Assignment3\Assignment3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Assignment3.cpp
+         Assignment3.cpp
+     1>c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(569): warning C4101: 'error' : unreferenced local variable
+     1>c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(577): warning C4101: 'error' : unreferenced local variable
+     1>c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(617): warning C4101: 'error' : unreferenced local variable
+     1>c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(625): warning C4101: 'error' : unreferenced local variable
+     1>c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(169): warning C4018: '>' : signed/unsigned mismatch
+                 c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(162) : while compiling class template member function 'void singlyLinkedList<int>::insertValueAt(const unsigned int,const T &)'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(525) : see reference to function template instantiation 'void singlyLinkedList<int>::insertValueAt(const unsigned int,const T &)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(517) : see reference to class template instantiation 'singlyLinkedList<int>' being compiled
+     1>c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(231): warning C4018: '>' : signed/unsigned mismatch
+                 c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(220) : while compiling class template member function 'int singlyLinkedList<int>::getValueAt(const unsigned int)'
+                 c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(552) : see reference to function template instantiation 'int singlyLinkedList<int>::getValueAt(const unsigned int)' being compiled
+     1>c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(263): warning C4018: '>' : signed/unsigned mismatch
+                 c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(252) : while compiling class template member function 'int &singlyLinkedList<int>::operator [](const unsigned int)'
+                 c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(596) : see reference to function template instantiation 'int &singlyLinkedList<int>::operator [](const unsigned int)' being compiled
+     1>c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(298): warning C4018: '>' : signed/unsigned mismatch
+                 c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(284) : while compiling class template member function 'void singlyLinkedList<int>::deleteValueAt(const unsigned int)'
+                 c:\users\aaron\desktop\the den\school\cs 2420\assignment3\assignment3\assignment3.cpp(643) : see reference to function template instantiation 'void singlyLinkedList<int>::deleteValueAt(const unsigned int)' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aaron\Desktop\The Den\School\CS 2420\Assignment3\Debug\Assignment3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Aaron\Desktop\The Den\School\CS 2420\Assignment3\Debug\Assignment3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aaron\Desktop\The Den\School\CS 2420\Assignment3\Debug\Assignment3.lib" /MACHINE:X86 Debug\Assignment3.obj
+         Assignment3.vcxproj -> C:\Users\Aaron\Desktop\The Den\School\CS 2420\Assignment3\Debug\Assignment3.exe
+     1>Done Building Project "C:\Users\Aaron\Desktop\The Den\School\CS 2420\Assignment3\Assignment3\Assignment3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.35
